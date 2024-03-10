@@ -1,0 +1,244 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+
+
+.navbar {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.2);
+    background-color: lightgray;
+}
+
+.navbar-left button {
+    margin-right: 0; /* Remove default right margin */
+    margin-left: -40px; /* Adjust left margin to move the button more to the left */
+}
+
+.navbar-right {
+    margin-right: -25px;
+}
+.navbar-right button {
+    margin-left: 0; /* Remove default left margin */
+    margin-right: 10px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-left,
+    .navbar-right {
+        flex-direction: row;
+    }
+
+    .navbar-right button {
+        margin-left: 0;
+        margin-right: 10px; /* Add margin to separate buttons vertically */
+    }
+}
+
+.btn-primary {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.btn-primary:hover {
+    transition: 1s;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.custom-div {
+        background-image: url('br-architects/assets/images/architect.jpg');
+        background-size: cover; /* To cover the entire div */
+        background-position: center; /* Center the background image */
+        padding: 0px; /* Add padding for content inside the div */
+        height: 700px; /* Set a fixed height for the div */
+      
+}
+
+.headin {
+    /* padding-top: 350px; */
+    /* padding-left: 600px; */
+}
+
+
+
+.br {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 13px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 0px 0px 0 #000;
+}
+
+.arch {
+    color: white;
+}
+
+.proj {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 18px;
+}
+
+.houses {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12px;
+    margin-left: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.house1,
+.house2,
+.house3,
+.house4,
+.house5,
+.house6,
+.house7,
+.house8 {
+    width: 320px;
+    height: 213px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.summer,
+.brick,
+.renovated,
+.barn,
+.summer2,
+.brick2,
+.renovated2,
+.barn2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 1.0);
+    padding: 13px;
+    text-shadow: 0px 0px 0 #000, 0px 0px 0 #000, 0px 0px 0 #000, 0px 0px 0 #000;
+    width: 160px;
+}
+
+.about {
+    margin: 18px;
+}
+
+.lorem {
+    margin-left: 18px;
+    margin-bottom: 30px;
+}
+
+.container sect {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 14px;
+    margin-left: 18px;
+}
+
+.team1,
+.team2,
+.team3,
+.team4 {
+    height: 426px;
+    width: 320px;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+    height: 213px;
+    width: 100%;
+}
+
+.ceo {
+    color: gray;
+}
+
+#butt {
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    padding: 10px 130px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#butt:hover {
+    transition: 1s;
+    background-color: white;
+    color: grey;
+}
+
+.cont {
+    margin-left: 18px;
+}
+
+.pare {
+    font-size: larger;
+    margin-left: 18px;
+}
+
+.buttons {
+    margin: 18px;
+}
+
+.button {
+    width: 99%;
+    height: 45px;
+    border: 1px solid #D3D3D3;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.input {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input:hover {
+    transition: 1s;
+    background-color: #D3D3D3;
+    color: darkgray;
+}
+
+footer {
+    background-color: black;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.copyright {
+    color: white;
+    font-size: larger;
+    /* padding-bottom: 5px; */
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #D3D3D3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.row {
+    height: 100%;
+}
